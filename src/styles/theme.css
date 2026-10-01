@@ -1,0 +1,97 @@
+/* ============================================================
+   Angel Invest — Design System (tokens extraídos da plataforma)
+   ============================================================ */
+
+:root {
+  /* Marca */
+  --color-primary: #42b6ba;
+  --color-primary-strong: #2e7f83;
+  --color-secondary: #296e8f;
+  --color-secondary-strong: #1e5570;
+  --color-accent: #f99c00;
+  --color-accent-strong: #edb200;
+  --color-sky: #6ec1e4;
+  --color-sky-soft: #9ddaf2;
+
+  /* Superfícies */
+  --color-background: #f2f8fc;
+  --color-foreground: #0e2838;
+  --color-muted: #4a7288;
+  --color-card: #ffffffd1;
+  --color-card-strong: #fffffff5;
+  --color-border: #296e8f29;
+  --color-header: #163f55f0;
+  --color-input: #ffffffe6;
+
+  /* Estados */
+  --color-success: #168a55;
+  --color-success-soft: #e6f7ef;
+  --color-danger: #dc2626;
+  --color-danger-soft: #fdecec;
+  --color-warning: #f99c00;
+  --color-info: #296e8f;
+  --color-focus-ring: #6ec1e4;
+
+  /* Gráficos */
+  --color-chart-area-fill: #296e8f29;
+  --color-chart-legend: #0e2838;
+  --color-progress-track: #296e8f1a;
+
+  /* Mesh de fundo (glass premium) */
+  --mesh-background:
+    radial-gradient(ellipse at 8% 10%, #6ec1e438, transparent 42%),
+    radial-gradient(ellipse at 55% 18%, #ffffffe0, transparent 42%),
+    radial-gradient(ellipse at 90% 35%, #296e8f24, transparent 38%),
+    radial-gradient(ellipse at 72% 82%, #42b6ba29, transparent 42%),
+    radial-gradient(ellipse at 18% 86%, #ceedf8b8, transparent 38%);
+
+  /* Gradientes de marca */
+  --gradient-brand: linear-gradient(135deg, #42b6ba 0%, #296e8f 100%);
+  --gradient-brand-soft: linear-gradient(135deg, #6ec1e4 0%, #42b6ba 100%);
+  --gradient-accent: linear-gradient(135deg, #f99c00 0%, #edb200 100%);
+  --gradient-header: linear-gradient(120deg, #163f55 0%, #296e8f 100%);
+  --gradient-dark: linear-gradient(160deg, #0a2640 0%, #163f55 100%);
+
+  /* Raio */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-xl: 26px;
+  --radius-pill: 999px;
+
+  /* Sombras */
+  --shadow-sm: 0 2px 8px -2px #296e8f1f;
+  --shadow-md: 0 10px 30px -12px #163f5533;
+  --shadow-lg: 0 24px 60px -20px #163f5540;
+  --shadow-glow: 0 0 0 4px #6ec1e433;
+
+  /* Tipografia */
+  --font-sans: "Roboto", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  /* Layout */
+  --header-h: 68px;
+  --sidebar-w: 264px;
+  --maxw: 1320px;
+}
+
+[data-theme="dark"] {
+  --color-background: #060f1b;
+  --color-foreground: #e6f4fb;
+  --color-muted: #7aadc4;
+  --color-card: #081c32c7;
+  --color-card-strong: #0a2640f5;
+  --color-border: #6ec1e42e;
+  --color-header: #060f1bcc;
+  --color-input: #ffffff12;
+  --color-success-soft: #0e2f22;
+  --color-danger-soft: #2f1414;
+  --color-chart-area-fill: #6ec1e41f;
+  --color-progress-track: #6ec1e41a;
+  --mesh-background:
+    radial-gradient(ellipse at 8% 8%, #296e8f4d, transparent 45%),
+    radial-gradient(ellipse at 88% 20%, #42b6ba24, transparent 40%),
+    radial-gradient(ellipse at 70% 85%, #163f5566, transparent 45%),
+    radial-gradient(ellipse at 15% 90%, #0a264088, transparent 42%);
+  --shadow-md: 0 10px 30px -12px #00000066;
+  --shadow-lg: 0 24px 60px -20px #00000080;
+}
